@@ -1,5 +1,3 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
 
 First, run the development server:
@@ -14,25 +12,34 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Learning Outcomes
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+With my limited experience in Frontend development, I recreated a section of NodeFlair's job-listing [webpage](https://nodeflair.com/jobs?query=&page=1&sort_by=relevant) in under 48hours. While some may complete it under a day, or even a few hours, I am still satisfied with my accomplishment and the results.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Having little to no experience, I do welcome any feedback on how my project can be improved in terms of:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. Functionality (e.g. Responsiveness, Aesthetic)
+2. Cleanliness (e.g. Code Structure, Reusability, Extensibility)
 
-## Learn More
+## Efforts
 
-To learn more about Next.js, take a look at the following resources:
+Features Recreated:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [x] Job-listing Cards (Logo, Organization, Technical Role, Job Title, Tech Stack, Location, Estimated Pay...)
+- [x] Job-listing Card Hover
+- [x] Job-listing Select Display Right-panel
+- [x] "Sticky" Right-panel
+- [x] Responsive Design (Desktop/Laptop vs Phone)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Features Lacking/Limitations:
 
-## Deploy on Vercel
+- [ ] Selected Job-listing Border
+- [ ] Tech Stack Cut-off
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Tech Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+NodeFlair-Clone was built with React, Next.js, Tailwind.css and hosted with Vercel.
+
+## Credits
+
+Credits to NodeFlair for allowing me to replicate their website as part of their technical assessment. All logos belong to their respective organizations.
