@@ -38,7 +38,7 @@ Features Lacking/Limitations:
 
 ## Considerations/Trade-offs
 
-1. Mapping
+### Mapping
 
 In order to accentuate the reusability of my `Card.js` component, I have decided to seed all the data into `data.js`, and import them in `index.js`, where each object is mapped to return a `Card`. However, with this method, I was unable to implement proper rendering of the selection of the job listings (i.e. the green borders). I would be able to render the selection, but unable to render the deselect (i.e. removing green borders).
 
